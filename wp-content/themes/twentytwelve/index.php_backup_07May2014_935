@@ -1,0 +1,145 @@
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * For example, it puts together the home page when no home.php file exists.
+ *
+ * @link http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twelve
+ * @since Twenty Twelve 1.0
+ */
+
+get_header(); ?>
+
+	<div id="primary" class="site-content">
+    	<div class="headBan">
+   	    	<div class="lineHeight0"><img src="<?php echo get_template_directory_uri(); ?>/images/headBan.jpg" alt="Image" /></div>
+            <div class="blueLine">
+            	<div class="width960">
+                	<div class="paddingL13 floatLeft">Discovered the undoubtable source. Lorem Ipsum comes from sections</div>
+					<a href="#" class="video"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+		</div>
+	  	<div id="content" role="main">
+			<div class="greyBox">
+				<div class="width900">
+                	<div><h1 class="heading1">SNEH ELDERCARE SERVICES<span class="fold"></span></h1></div>
+                    <div class="box">
+                    	<h2 class="boxTitle">SNeh Packages</h2>
+                    	<img src="<?php echo get_template_directory_uri(); ?>/images/p1.jpg" alt="Image" />
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since <br /><br />
+                        <a href="#" class="blueBtn">Contact  OR Buy</a>
+                    </div>
+                    <div class="box marginLR30">
+                    	<h2 class="boxTitle">Ancillary Services</h2>
+                    	<img src="<?php echo get_template_directory_uri(); ?>/images/p2.jpg" alt="Image" />
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since <br /><br />
+                        <a href="#" class="blueBtn">Check Services</a>
+                    </div>
+                    <div class="box">
+                    	<h2 class="boxTitle">Dropdown Centre</h2>
+                    	<img src="<?php echo get_template_directory_uri(); ?>/images/p3.jpg" alt="Image" />
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since <br /><br />
+                        <a href="#" class="blueBtn">Center Locations</a>
+                    </div>
+                    
+                    <div class="clear"></div>
+            </div>
+        </div><!-- #content -->
+        <div class="whtBox">
+        	<div class="width900">
+				<div><h1 class="heading1">SNEH &amp; YOU!<span class="fold"></span></h1></div>
+                <div class="circle">
+                	<div class="SY1"></div>
+					<p class="circleTitle">OUR  PHILOSOPHY</p>
+                    SNeHcare is dedicated to providing the best possible experience and care for the physical and mental wellbeing
+                </div>
+                <div class="circle marginLR68">
+                    <div class="SY2"></div>
+                    <p class="circleTitle">OUR DOCTORS</p>
+                    SNeH has a panel of senior and experienced doctors. While some of these doctors provide Preventive Home Healthcare to elderly...
+                </div>
+                <div class="circle">
+                    <div class="SY3"></div>
+                    <p class="circleTitle">WHY SNEH</p>
+                    SNeH Eldercare is about preventive home healthcare services provided to geriatric population of India with compassion
+                </div>
+                <div class="clear"></div>
+			</div>    
+        </div>
+        <div class="greyBox">
+        	<div class="width900">
+				<div><h1 class="heading1">TESTIMONIALS<span class="fold"></span></h1></div>
+                <div class="testimonialsMoto">
+                	SNEH IS ALL ABOUT ELDERCARE AND THEIR TESTIMONIAL MATTERS
+                </div>
+                <div class="testi">
+                	<img src="<?php echo get_template_directory_uri(); ?>/images/t1.png" alt="Image" />
+                    <div class="paddingB5"><strong>Sarita Mathur</strong></div>
+                	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto ...
+                    <div class="space30"></div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/t2.png" alt="Image" />
+                    <div class="paddingB5"><strong>Person Name</strong></div>
+                	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto ...
+                    <div class="space30"></div>
+                    <a href="#">More Testimonials</a>
+                </div>
+                <div class="clear"></div>
+			</div>
+        </div>
+        <div class="whtBox">
+        	<div class="width900">
+				<div class="marginB20"><h1 class="heading1">CONTACT US<span class="fold"></span></h1></div>
+              	<div class="botForm">
+					<img class="marginB15" src="<?php echo get_template_directory_uri(); ?>/images/contactImg.png" alt="Image" />
+                    <p class="phone">+91 8898119922 / 33 / 55 </p>
+                    <p class="email">hello@sneheldercare.com</p>
+                </div>
+                
+                <div class="contactForm">
+					<input type="text" name="textfield" id="textfield" class="txtName marginR10" placeholder="Your name" />
+                    <input type="text" name="textfield" id="textfield" class="txtName" placeholder="Contact Number" />
+                    <input type="text" name="textfield" id="textfield" class="emailInput" placeholder="Email Address" />
+					<select name="select" id="select" class="selectOpt">
+                        <option>Please Select an Option</option>
+						<option>Select Option</option>
+                        <option>Select an Option</option>
+                    </select>
+                    <div class="checkBoxWrap">Prefered Mode of Contact 
+                      <input type="checkbox" name="checkbox" id="checkbox" class="marginL25" /> &nbsp;
+                      <label for="checkbox2">Email</label>
+                      <input type="checkbox" name="checkbox" id="checkbox" class="marginL25" /> &nbsp;
+                      <label for="checkbox2">Phone</label>
+                    </div>
+					<textarea name="textarea" id="textarea" class="textArea" placeholder="Your Message / notes"></textarea>
+                    <input type="submit" name="button" id="button" value="Submit" class="blueButton" />
+                </div>
+                <div class="clear"></div>
+		  </div>
+        </div>
+        <div class="blueBox">
+        	<div class="width900">
+				<div><h1 class="heading1">FAQS<span class="fold"></span></h1></div>
+                <ul class="faqs">
+					<li><a href="#">Geriatrics</a></li>
+                    <li><a href="#">Sneh Eldercare Plans</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Serivices</a></li>
+                    <li><a href="#">Payments</a></li>
+                
+                </ul>
+                <div class="clear"></div>
+                
+			</div>
+        </div>
+	</div><!-- #primary -->
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

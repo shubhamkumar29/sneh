@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="css/styles.css" rel="stylesheet" media="screen"  />
+<title>Simple Popup Box using CSS and jQuery</title>
+<!-- 
+Simple Popup Box using CSS and jQuery.
+This tutorial by bijusubhash.com.
+follow me on Twitter : http://www.twitter.com/bijusubhash
+-->
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script  type="text/javascript" language="javascript">
+$(document).ready(function(){
+	$(".QTPopup").css('display','none')
+	$(".lnchPopop").click(function(){
+		$(".QTPopup").animate({width: 'show'}, 'slow');})
+		$(".closeBtn").click(function(){			
+			$(".QTPopup").css('display', 'none');
+		})
+})
+</script>
+
+</head>
+
+<body>
+	<div style="height:140px; background:url('http://www.bijusubhash.com/wp-content/themes/BS-Brown/images/header_bg.png');">
+		<img src="http://www.bijusubhash.com/wp-content/themes/BS-Brown/images/logo.png" />
+	</div>
+	<div style="line-height:30px; background:#fff; border-bottom:1px solid #dadada; text-align:center; font-weight:normal;">
+		This is a demo.
+	</div>
+		<div style="text-align:center; line-height:150px;"><a href="#" class="lnchPopop" style="border:1px solid #dadada; background:#fff; line-height:105px; padding:10px 25px; color:gray; text-decoration:none; ">Lauch Popup</a></div>
+<div class="QTPopup">
+	<div class="popupGrayBg"></div>
+	<div class="QTPopupCntnr">
+		<div class="gpBdrLeftTop"></div>
+		<div class="gpBdrRightTop"></div>
+		<div class="gpBdrTop"></div>
+		<div class="gpBdrLeft">
+			<div class="gpBdrRight">
+				<div class="caption">
+					Send Your Messages
+				</div>
+				<a href="#" class="closeBtn" title="Close"></a>
+				
+				<div class="content">
+					<table width="100%" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>Name</td>
+							<td width="260">
+								<div class="titlebarLeftc">
+								<div class="titlebarRightc">
+								<div class="titlebar" style="width:250px;"><input type="text" value=""  style="border:0px;  background:none; margin-top:5px; width:245px;"/>
+								</div>
+								</div>
+								</div> 
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Email</td>
+							<td width="260">
+								<div class="titlebarLeftc">
+								<div class="titlebarRightc">
+								<div class="titlebar" style="width:250px;"><input type="text" value=""  style="border:0px;  background:none; margin-top:5px; width:245px;"/>
+								</div>
+								</div>
+								</div> 
+							</td>
+						</tr>
+					</table>
+					<br />
+					<table>
+						<tr>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>
+								Subject
+							</td>
+						</tr>
+						<tr>
+							<td style="height:5px;"></td>
+						</tr>
+						<tr>
+							<td>
+								<div class="titlebarLeftc">
+								<div class="titlebarRightc">
+								<div class="titlebar" style="width:414px;"><input type="text" value=""  style="border:0px;  background:none; margin-top:5px; width:405px;"/>
+								</div>
+								</div>
+								</div> 
+							</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>
+								Message
+							</td>
+						</tr>
+						 <tr>
+							<td style="height:5px;"></td>
+						</tr>
+
+						<tr>
+							<td>
+								<textarea class="textareagradiant" style="width:428px; height:116px; border:1px solid #CFCECE;"> </textarea> 
+
+							</td>
+						
+						</tr>
+						<tr>
+							<td style="height:5px;"></td>
+						</tr>
+						<tr>
+							<td style="height:10px;"></td>
+						</tr>
+						<tr>
+							<td>
+							<input type="button" value="Submit" class="gbtn_s"  />
+							<input type="button" value="Reset" class="gbtn_s"  />
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="gpBdrLeftBottom"></div>
+		<div class="gpBdrRightBottom"></div>
+		<div class="gpBdrBottom"></div>
+</div>
+</div>
+</body>
+</html>

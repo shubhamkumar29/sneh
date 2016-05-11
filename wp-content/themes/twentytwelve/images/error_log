@@ -1,0 +1,1 @@
+[06-Jan-2015 18:28:22 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/snehcare/public_html/sneheldercare.com/wp-content/themes/twentytwelve/images/index.php on line 17

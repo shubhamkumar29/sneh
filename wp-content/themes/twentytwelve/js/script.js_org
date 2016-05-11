@@ -1,0 +1,62 @@
+jQuery(function( $ ){
+	$( ".sub-menu" ).bind("mouseover mouseout",	function( event ){
+		$( this ).siblings().toggleClass('whiteColor');
+	});
+	$('.socialIcon').hover(function() {
+		$(this).toggleClass('animated tada');
+	});
+	$('.ancServices li').hover(function() {
+		$(this).find('img').toggleClass('animated tada');
+	});
+	$('.faqList p').click(function() {
+		$(this).parent('li').children('div').slideToggle('fast');
+		$(this).toggleClass('active');
+		$(this).parent('li').siblings('li').children('div').slideUp('fast');
+		$(this).parent('li').siblings('li').children('p').removeClass('active');
+	});
+	/* For Responcive */
+	var delay = (function(){
+		var timer = 0;
+		return function(callback, ms){
+			clearTimeout (timer);
+			timer = setTimeout(callback, ms);
+		};
+	})();
+	var pause = 100;
+	var winW = $(window).width();
+	if(winW >= 816) {
+			
+		winH = $(window).height();
+		// Keep minimum height 550
+		if(winH <= 550) {
+			winH = 550;
+		}
+		$('.homeSlide').css('height', winH);	
+	
+		$('.showHideArrow').click(function() {
+			$('div.cartDetail').slideUp('fast');
+			$('.showHideArrow').removeClass('down');
+			$(this).parent().parent().siblings('div.cartDetail').slideToggle('fast');
+			$(this).toggleClass('down');
+			
+			
+		});
+	}
+	// 
+	var width = $(window).width();
+	if( width <= 815 ) {
+		$('ul li.menu-item-has-children > a').click(function(event) {
+			event.preventDefault();
+			$('ul.sub-menu').slideUp('normal');
+			$(this).parent('li.menu-item-has-children').siblings('li').show('normal');
+			$(this).parent('li.menu-item-has-children').removeClass('minus');
+			if($(this).next('ul.sub-menu').is(':hidden') == true) {    
+				$(this).parent('li.menu-item-has-children').siblings('li').hide('normal');
+				$(this).next('ul.sub-menu').slideDown('normal');
+				$(this).parent('li.menu-item-has-children').addClass('minus');
+			} 
+		});
+	}; 
+    $(window).resize();
+	
+});

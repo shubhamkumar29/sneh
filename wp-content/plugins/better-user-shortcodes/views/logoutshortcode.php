@@ -1,0 +1,1 @@
+<a href="<?php echo $config->getItem('plugin_handler_url').'?logout=1'; ?><?php echo isset($atts['return_url']) ? '&return_url='.$atts['return_url'] : ''; ?>" title="<?php echo isset($atts['link_title']) ? $atts['link_title'] : 'Logout'; ?>"><?php echo isset($atts['link_value']) ? $atts['link_value'] : 'Logout'; ?></a>
