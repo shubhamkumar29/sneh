@@ -43,19 +43,6 @@ SNeH, hence, has a panel of senior and experienced doctors. While some of these 
                              <div class="doctorsList">
                              	<img src="<?php echo get_template_directory_uri(); ?>/images/doctorf.jpg" alt="" />
                                 <div class="doctorsDec fontSize14 line20">
-                                	<p class="fontSize18 colorDark">Dr. Neera Kewalramani</p>
-                                    <p>Dr Neera Kewalramani has vast experience in preventive &promotive health Care, and excellent knowledge of healthcare of elderly.</p>
-                                    <p>Since November 2010, she has been working with independent doctors and organisations, providing need based support for carrying out their activities such as, helping in organising health camps, clinical assistance, preparing training materials, information write ups and more.</p>
-                                    <p>In her previous posting, she has worked as a consultant with Unicef. Prior to this, she worked in MCGM (Municipal Corporation of Greater Mumbai) from June 1981 to November 2008 in various capacities.</p>
-                                    <p>She has attended a number of workshops and conferences. Among them, a course in Personal Counseling at St. Xaviers College of Counseling, Mumbai, a training for Rapid Response Team for Avian Influenza at NICD, Delhi and a training programme on Counselling Techniques at Bangalore organized by ISHA  (Indian Society for Health Administrators.)</p>
-                                    <p>She also participated in Technical Advisory Group Consultation for Developing strategies, and Operational Plans for Improving New born and Child Survival in India to achieve MDG4.</p>
-                                    <p>She is highly qualified. Her qualifications include MD, DPH, PGCH&FM, PG Certificate course in Geriatrics.</p>
-                                </div>
-                                <div class="clear"></div>
-                             </div>
-                             <div class="doctorsList">
-                             	<img src="<?php echo get_template_directory_uri(); ?>/images/doctorf.jpg" alt="" />
-                                <div class="doctorsDec fontSize14 line20">
                                 	<p class="fontSize18 colorDark">Dr. Bhavika Hotchandani</p>
                                     <p>Dr. Bhavika Hotchandani has expertise in geriatric care as well as family medicine. She is currently practicing at Mamata Clinic, 7 bungalows, Andheri west, Mumbai. Prior to that she worked with MCGM Public Health Department for eight years.</p> <p>She has also worked with Holy family hospital Bandra as ICU Doctor, with Dr RN Cooper hospital -General Medicine House Post and with BJ Wadia hospital, Parel -Pediatric House Post.</p>
 <p>She is an MBBS from TN Medical College, BYL Nair Charitable Hospital. She has the honour of doing her DHA with First Rank Distinction from All India Institute of Local Self Govt.</p>
