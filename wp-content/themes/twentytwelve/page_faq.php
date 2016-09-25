@@ -156,7 +156,7 @@ get_header(); ?>
 
                                     <div>
 
-                                    	In case none of our plans suit your requirements, we can make a custom plan for you based on your requirements. <span class="redStyle">You can call us on +91 8898119922/33/55 or send an email at</span> <a href=""mailto:help@snehcare.com>help@snehcare.com</a> or <a href="contact-us">Click here to fill a simple form.</a>
+                                    	In case none of our plans suit your requirements, we can make a custom plan for you based on your requirements. <span class="redStyle">You can call us on +91 9821680153 or send an email at</span> <a href=""mailto:help@snehcare.com>help@snehcare.com</a> or <a href="contact-us">Click here to fill a simple form.</a>
 
                                     </div>
 
@@ -236,7 +236,7 @@ get_header(); ?>
 
                                     <div>
 
-                                        Yes, you can get a SNeH Eldercare plan for yourself, as well as for someone else. To get a plan, you can call us <span class="redStyle">on +91 8898119922/33/55, send an email to</span> <a href="mailto:help@snehcare.com">help@snehcare.com</a> or fill <a href="contact-us">a simple form by clicking here.</a>
+                                        Yes, you can get a SNeH Eldercare plan for yourself, as well as for someone else. To get a plan, you can call us <span class="redStyle">on +91 9821680153, send an email to</span> <a href="mailto:help@snehcare.com">help@snehcare.com</a> or fill <a href="contact-us">a simple form by clicking here.</a>
 
                                     </div>
 
