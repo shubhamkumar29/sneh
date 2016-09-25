@@ -557,7 +557,7 @@ a:hover {
 	background:#003366 url(images/topbg.gif) repeat-x 0 0;
 }
 .topBar { height:35px; padding:0 0 0 0; }
-.phonelink{ height:35px; background:url(images/phone.gif) no-repeat 0px 0; display: block; height: 35px; width: 250px; float: left; }
+.phonelink{ height:35px; background:url(images/phone.png) no-repeat 0px 0; display: block; height: 35px; width: 250px; float: left; }
 
 .socialIcon{ background:url(images/socialIcon.png) no-repeat; width:24px; height:24px; display:block; float:left; margin-top:4px}
 .youTubeIcon{ background-position:0 0; margin-right:4px}
@@ -1773,7 +1773,7 @@ img#wpstats {
 @media only screen and (max-width:815px) {
 	/*.topBar { height:35px; background:url(images/phone.gif) no-repeat 0px 0; padding:0 0 0 233px; }*/
 	.topBar { height:35px; padding:0 0 0 0; }
-    .phonelink{ height:35px; background:url(images/phone.gif) no-repeat 0px 0; display: block; height: 35px; width: 225px; float: left; }
+    .phonelink{ height:35px; background:url(images/phone.png) no-repeat 0px 0; display: block; height: 35px; width: 225px; float: left; }
 
 	#quotes{ padding: 5px; left: 0; bottom: 35%; width: 300px; font-size: 1.3rem }
 	.height110{ height:85px; }
@@ -2080,7 +2080,7 @@ img#wpstats {
 		padding:0 0 0 233px;
 	}*/
 	.topBar { height:35px; padding:0 0 0 0; }
-.phonelink{ height:35px; background:url(images/phone.gif) no-repeat 0px 0; display: block; height: 35px; width: 225px; float: left; }
+.phonelink{ height:35px; background:url(images/phone.png) no-repeat 0px 0; display: block; height: 35px; width: 225px; float: left; }
 	.username{ display:none }
 	.usernameRespons{ position: fixed; top: 93px; z-index: 99; background:rgba(0,0,0,0.5); display:block; height:26px; line-height:26px; color:#FFFFFF; font-size:13px; font-size:0.9286rem; text-align:right; width:100% }
 	.usernameRespons a{color:#FFFFFF; text-decoration:none;}
@@ -2113,7 +2113,7 @@ img#wpstats {
 		padding:0 0 0 233px;
 	}*/
 	.topBar { height:35px; padding:0 0 0 0; }
-.phonelink{ height:35px; background:url(images/phone.gif) no-repeat 0px 0; display: block; height: 35px; width: 225px; float: left; }
+.phonelink{ height:35px; background:url(images/phone.png) no-repeat 0px 0; display: block; height: 35px; width: 225px; float: left; }
 	.logo{ width:135px; height:58px; background-size:cover; }
 	.site-header h1{ margin-bottom:0; }	
 	.main-navigation ul.nav-menu{	
