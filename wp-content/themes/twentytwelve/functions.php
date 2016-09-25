@@ -1152,7 +1152,7 @@ add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
 
 					<img class="marginB15 mHide" src="'.get_template_directory_uri().'/images/'.$img.'" alt="Image" />
 
-                    <p class="phone">+91 8898119922 / 33 / 55 </p>
+                    <p class="phone">+91 9821680153 / 33 / 55 </p>
 
                     <p class="email"><a href="mailto:help@sneheldercare.com">help@sneheldercare.com</a></p>
 
