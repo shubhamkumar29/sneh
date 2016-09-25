@@ -89,7 +89,7 @@ Our 12/7 call center is your one stop shop for asking any query related to healt
                 	<p class="greenBoxTital">OUR PARTNERS</p>
                 	We have tied up with key labs, medical equipment providers, nursing and caregiver services. It is our and our partners endeavour to provide you the best of ancillary services.
 					<div class="space30"></div>
-                    <p class="phone">+91 8898119922 / 33 / 55 </p>
+                    <p class="phone">+91 9821680153 </p>
                     <p class="email"><a href="mailto:help@sneheldercare.com" style="color: #fff; text-decoration: none;">help@sneheldercare.com</a></p>
                 </div>
                 <div class="marginT10 fontSize16 line24">
