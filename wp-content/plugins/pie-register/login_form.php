@@ -863,7 +863,7 @@ $form_data .='</div>
 
 </div></div><div class="botForm floatRight">
 		<img class="marginB15 mHide" src="'.home_url().'/wp-content/themes/twentytwelve/images/contactImg.jpg" alt="Image">
-		<p class="phone">+91 8898119922 / 33 / 55 </p>
+		<p class="phone">+91 9821680153 </p>
 		<p class="email"><a href="mailto:help@sneheldercare.com">help@sneheldercare.com</a></p>
 	</div>
 	<div class="clear"></div>';
